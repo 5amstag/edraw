@@ -446,7 +446,6 @@ class edraw(inkex.EffectExtension):
 			unit = self.svg.attrib['height'][-2:]
 			self.svg.attrib['height'] = '{}{}'.format(size,unit)
 			self.svg.attrib['width'] = '{}{}'.format(size,unit)
-			inkex.errormsg('{}{}'.format(size,unit))
 		else:
 			pass
 		ely_xml = create_ely_tree(filename.split('.')[0],self.get_grid())
