@@ -10,8 +10,10 @@ INSTALLATION:
 
 USAGE:
 * create some shapes and run the extension
+* the units doesn't matter the document units will be interpreted as µm
 * choose the path where the .ely file should be stored
 * check the output file with another viewer, to make sure the output is that what you want
+* if you use a grid make sure the grid units match the document units
 
 ISSUES:
 * there are stil a lot of issues. See TODO section in edraw.py for further details
