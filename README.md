@@ -16,3 +16,4 @@ USAGE:
 ISSUES:
 * there are stil a lot of issues. See TODO section in edraw.py for further details
 * the program is not fully tested. Be careful
+* since I'm not a professional programer the code is not written in a good shape. The program is just a quick approach.
