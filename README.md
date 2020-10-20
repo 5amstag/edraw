@@ -4,10 +4,15 @@ inkscape extension for creating ely files used for electron beam lithography
 This is an inkscape extension for creating .ely files from drawings. It is meant to use for creating electron beam lithography files.
 
 INSTALLATION:
-* copy the the edraw.py and edraw.inx file to your inkscape extension folder.
-
-  For Debian based systems the inkscape extension path is located on
-  /home/USERNAME/.config/inkscape/extensions (for local user mode)
-  /usr/share/inkscape/extensions (for all users)
- 
+* find the path where inkscape extensions are located. In Inkscape go to  Edit > Preferences > System: User extensions for the getting the path
+* copy the the edraw.py and edraw.inx file to your inkscape extension folder. 
 * after a restart of inkscape this extension should be visible in the extensions/export menu.
+
+USAGE:
+* create some shapes and run the extension
+* choose the path where the .ely file should be stored
+* check the output file with another viewer, to make sure the output is that what you want
+
+ISSUES:
+* there are stil a lot of issues. See TODO section in edraw.py for further details
+* the program is not fully tested. Be careful
