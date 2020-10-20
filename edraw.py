@@ -34,6 +34,7 @@ TODO
 * handling holes in paths, several 'm' or 'M' commands in path d attribute
 * handling text
 * flatten transformations
+* ely file is mirrored vertically
 '''
 
 import inkex
